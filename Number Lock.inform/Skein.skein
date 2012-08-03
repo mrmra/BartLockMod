@@ -1,0 +1,2754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x9b8e8f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>GNOME Inform 7</generator>
+  <activeNode nodeId="node-0x9b8e8f0"/>
+  <item nodeId="node-0x9b8e8f0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+You can LOOK, TYPE, or move N S E W.
+
+Number Lock w/ASCII and Puzzle (mod. from Bart Massey&apos;s Number Lock)
+An Interactive Fiction by MRA
+Release 1 / Serial number 120730 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Locked Room
+You can see an exit door and a combination lock here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9b8e9c8"/>
+      <child nodeId="node-0x9f9fec0"/>
+      <child nodeId="node-0x9fbd2b8"/>
+      <child nodeId="node-0x9ff9a90"/>
+      <child nodeId="node-0x9ff9ec8"/>
+      <child nodeId="node-0xa05c460"/>
+      <child nodeId="node-0xa06b1f0"/>
+      <child nodeId="node-0xa0892d0"/>
+      <child nodeId="node-0xa0b68f0"/>
+      <child nodeId="node-0xa0b6b78"/>
+      <child nodeId="node-0xa0b6d28"/>
+      <child nodeId="node-0xa022018"/>
+      <child nodeId="node-0xa0221c8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9b8e9c8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Locked Room
+You can see an exit door and a combination lock here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9b8eaa0"/>
+      <child nodeId="node-0x9f90540"/>
+      <child nodeId="node-0x9f9fb60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9b8eaa0">
+    <command xml:space="preserve">look at lock</command>
+    <result xml:space="preserve">This lock has a numeric keypad and a display. You can type on it. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9b8eb78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9b8eb78">
+    <command xml:space="preserve">type 8394</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9b8ec50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9b8ec50">
+    <command xml:space="preserve">look at display</command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9b8ed28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9b8ed28">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9b8ee00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9b8ee00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9b8eed8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9b8eed8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f81828"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f81828">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f81900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f81900">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            
+            
+            
+===============-|__|_x--==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f819d8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f819d8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">(x_x)
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f81ab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f81ab0">
+    <command xml:space="preserve">type 6237</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f81b88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f81b88">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f81c60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f81c60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f81d38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f81d38">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f81e10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f81e10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f81ee8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f81ee8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                 0
+                /-
+              //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f90030"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f90030">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                    0
+                   |-
+                  //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f90108"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f90108">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                     0
+                     |
+                    //
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f901e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f901e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                        0
+                        |
+                       / \
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f902b8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f902b8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+
+(^0^)
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f90390"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f90390">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the exit door)
+
+
+    *** You have escaped! ***
+
+
+In that game you scored 1 out of a possible 1, in 6 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f90468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f90468">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">
+[ The game has finished ]
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x9f90540">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f90618"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f90618">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f906f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f906f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f9f800"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f9f800">
+    <command xml:space="preserve">list</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f9f8d8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f9f8d8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f9f9b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f9f9b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f9fa88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f9fa88">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x9f9fb60">
+    <command xml:space="preserve">type</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f9fc38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f9fc38">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f9fd10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f9fd10">
+    <command xml:space="preserve">type</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9f9fde8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9f9fde8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x9f9fec0">
+    <command xml:space="preserve">6237</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fbd030"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fbd030">
+    <command xml:space="preserve">type 6237</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fbd108"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fbd108">
+    <command xml:space="preserve">type 604</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fbd1e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fbd1e0">
+    <command xml:space="preserve">type 6237</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x9fbd2b8">
+    <command xml:space="preserve">type 6237</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fbd390"/>
+      <child nodeId="node-0x9fdbb78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fbd390">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fbd468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fbd468">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fbd540"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fbd540">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fbd618"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fbd618">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fbd6f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fbd6f0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">                 0
+                /-
+              //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fcd808"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fcd808">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">                    0
+                   |-
+                  //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fcd8e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fcd8e0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">                     0
+                     |
+                    //
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fcd9b8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fcd9b8">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">                        0
+                        |
+                       / \
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fcda90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fcda90">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">(^0^)
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fcdb68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fcdb68">
+    <command xml:space="preserve">look at display</command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fcdc40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fcdc40">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fcdd18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fcdd18">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fcddf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fcddf0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fcdec8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fcdec8">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fdb818"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fdb818">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            
+            
+            
+===============-|__|_x--==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fdb8f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fdb8f0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">(x_x)
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fdb9c8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fdb9c8">
+    <command xml:space="preserve">604</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fdbaa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fdbaa0">
+    <command xml:space="preserve">type 604</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x9fdbb78">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fdbc50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fdbc50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fdbd28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fdbd28">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fdbe00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fdbe00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9fdbed8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9fdbed8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                 0
+                /-
+              //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9ff9808"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9ff9808">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                     0
+                    |-
+                   //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9ff98e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9ff98e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                     0
+                     |
+                    //
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9ff99b8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9ff99b8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                        0
+                        |
+                       / \
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x9ff9a90">
+    <command xml:space="preserve">type 123</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9ff9b68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9ff9b68">
+    <command xml:space="preserve">type 604</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9ff9c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9ff9c40">
+    <command xml:space="preserve">type 6237</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9ff9d18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9ff9d18">
+    <command xml:space="preserve">type 555</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x9ff9df0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x9ff9df0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Locked Room
+You can see an exit door and a combination lock here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x9ff9ec8">
+    <command xml:space="preserve">look at display</command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa009040"/>
+      <child nodeId="node-0xa009550"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa009040">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa009118"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa009118">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0091f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0091f0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0092c8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0092c8">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0093a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0093a0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            
+            
+            
+===============-|__|_x--==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa009478"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa009478">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+(x_x)
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa009550">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa009628"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa009628">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa009700"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa009700">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa016838"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa016838">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa016910"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa016910">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            
+            
+            
+===============-|__|_x-==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0169e8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0169e8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+
+(x_x)
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa016ac0"/>
+      <child nodeId="node-0xa02a630"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa016ac0">
+    <command xml:space="preserve">604</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa016b98"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa016b98">
+    <command xml:space="preserve">type 604</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa016c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa016c70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa016d48"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa016d48">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa016e20"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa016e20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa016ef8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa016ef8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa02a048"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa02a048">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                 0
+                /-
+              //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa02a120"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa02a120">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                    0
+                   |-
+                  //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa02a1f8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa02a1f8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                     0
+                     |
+                    //
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa02a2d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa02a2d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                        0
+                        |
+                       / \
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa02a3a8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa02a3a8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+
+(^0^)
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa02a480"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa02a480">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit? </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa02a558"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa02a558">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">
+[ The game has finished ]
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa02a630">
+    <command xml:space="preserve">type 604</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa02a708"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa02a708">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa04c838"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa04c838">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa04c910"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa04c910">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa04c9e8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa04c9e8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa04cac0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa04cac0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                 0
+                /-
+              //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa04cb98"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa04cb98">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                    0
+                   |-
+                  //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa04cc70"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa04cc70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                     0
+                     |
+                    //
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa04cd48"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa04cd48">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                        0
+                        |
+                       / \
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa04ce20"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa04ce20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+
+(^0^)
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa04cef8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa04cef8">
+    <command xml:space="preserve">look at display</command>
+    <result xml:space="preserve">(^0^)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa05c028"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa05c028">
+    <command xml:space="preserve">look at display</command>
+    <result xml:space="preserve">(^0^)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa05c100"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa05c100">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa05c1d8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa05c1d8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa05c2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa05c2b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the exit door)
+
+
+    *** You have escaped! ***
+
+
+In that game you scored 1 out of a possible 1, in 5 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa05c388"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa05c388">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">
+[ The game has finished ]
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa05c460">
+    <command xml:space="preserve">look at displau</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa05c538"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa05c538">
+    <command xml:space="preserve">look at displau</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa05c610"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa05c610">
+    <command xml:space="preserve">look at display</command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+
+
+ 0 
+ | 
+/ \ 
+================--------==== 
+                ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa05c6e8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa05c6e8">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">     0 
+     | 
+    // 
+================--------==== 
+                ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa06b040"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa06b040">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">       0 
+       | 
+      / \ 
+================--------==== 
+                ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa06b118"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa06b118">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">          0 
+          | 
+         // 
+================--------==== 
+                ^^^^^^^^
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa06b1f0">
+    <command xml:space="preserve">type 604</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa06b2c8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa06b2c8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa06b3a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa06b3a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa06b478"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa06b478">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa06b550"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa06b550">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa06b628"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa06b628">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                 0
+                /-
+              //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa06b700"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa06b700">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                    0
+                   |-
+                  //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa089048"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa089048">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                     0
+                     |
+                    //
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa089120"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa089120">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                        0
+                        |
+                       / \
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0891f8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0891f8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">(^0^)
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa0892d0">
+    <command xml:space="preserve">look at lock</command>
+    <result xml:space="preserve">This lock has a numeric keypad and a display. You can LOOK at the display, and TYPE numbers on the keypad. (^0^)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0893a8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0893a8">
+    <command xml:space="preserve">look at display</command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa089480"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa089480">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa089558"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa089558">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa089630"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa089630">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa089708"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa089708">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa098000"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa098000">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">A digital read-out printing the same message in a loop:
+
+6734 576 07734
+
+            
+            
+            
+===============-|__|_x-==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0980d8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0980d8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+
+(x_x)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0981b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0981b0">
+    <command xml:space="preserve">type 604</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+ 0 
+ | 
+/ \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa098288"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa098288">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">    0 
+    | 
+   // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa098360"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa098360">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">      0 
+      | 
+     / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa098438"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa098438">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">         0 
+         | 
+        // 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa098510"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa098510">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">            0 
+            | 
+           / \ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0985e8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0985e8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                 0
+                /-
+              //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0986c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0986c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                    0
+                   |-
+                  //
+ 
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0a7010"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0a7010">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                     0
+                     |
+                    //
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0a70e8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0a70e8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">                        0
+                        |
+                       / \
+===============--------==== 
+               ^^^^^^^^
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0a71c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0a71c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+
+(^0^)
+
+The display flashes and you hear a soft click.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0a7298"/>
+      <child nodeId="node-0xa0a76d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0a7298">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren&apos;t in anything at the moment.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0a7370"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0a7370">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0a7448"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0a7448">
+    <command xml:space="preserve">uit</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0a7520"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0a7520">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit? </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0a75f8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0a75f8">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">
+[ The game has finished ]
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa0a76d0">
+    <command xml:space="preserve">look at lock</command>
+    <result xml:space="preserve">This lock has a numeric keypad and a display. You can LOOK at the display, and TYPE numbers on the keypad. (^0^)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0b6818"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0b6818">
+    <command xml:space="preserve">look at display</command>
+    <result xml:space="preserve">(^0^)
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa0b68f0">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit? </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0b69c8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0b69c8">
+    <command xml:space="preserve">y\\</command>
+    <result xml:space="preserve">Please answer yes or no.&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0b6aa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0b6aa0">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">
+[ The game has finished ]
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa0b6b78">
+    <command xml:space="preserve">type 1262374584</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0b6c50"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0b6c50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa0b6d28">
+    <command xml:space="preserve">typing</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0b6e00"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0b6e00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0b6ed8"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0b6ed8">
+    <command xml:space="preserve">type 0</command>
+    <result xml:space="preserve">You can type a NUMBER.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa022018">
+    <command xml:space="preserve">type</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xa0220f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xa0220f0">
+    <command xml:space="preserve">type 0</command>
+    <result xml:space="preserve">
+*** Run-time problem P59: You can&apos;t implicitly repeat through the values of this kind: a problem arising from a description which started out here - &quot;Instead of typing when there is no number&quot;.
+
+The keypad clicks merrily.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xa0221c8">
+    <command xml:space="preserve">type 4</command>
+    <result xml:space="preserve">The keypad clicks merrily.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
